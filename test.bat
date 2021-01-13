@@ -8,6 +8,6 @@ for /F "delims=" %%a in (temp.txt) do (
 
 "C:\Program Files\Java\jdk1.8.0_241\bin\jinfo" %pid%  > C:\Users\bxczp\Desktop\test2.txt
 
-del temp.txt /q
+del /q temp.txt 
 
 
